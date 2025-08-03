@@ -1,11 +1,11 @@
 import React from 'react'
-import Content from './Content'
+import CreateID from './CreateID'
 
 const Forms = () => {
   return (
     <div className="forms">
-      <Content />
-      <Content />
+      <CreateID />
+      <CreateID />
     </div>
   )
 }

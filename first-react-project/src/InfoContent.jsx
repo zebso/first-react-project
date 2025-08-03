@@ -1,7 +1,7 @@
 import React from 'react'
 import './Content.css'
 
-const Content = ({icon, title, num}) => {
+const InfoContent = ({icon, title, num}) => {
   return (
     <div className="content flex-content" id={icon} >
       <span className="material-symbols-outlined ft-48">{icon}</span>
@@ -13,4 +13,4 @@ const Content = ({icon, title, num}) => {
   )
 }
 
-export default Content
+export default InfoContent
