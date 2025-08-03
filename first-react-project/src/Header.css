@@ -1,0 +1,22 @@
+header {
+  height: 80px;
+  background: #fff;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 250px);
+  border-bottom: 1px solid #eae9e9;
+  z-index: 1;
+  box-sizing: border-box;
+
+  h1 {
+    line-height: 28px;
+  }
+
+  .logos {
+    display: none;
+  }
+}

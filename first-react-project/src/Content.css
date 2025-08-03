@@ -1,0 +1,32 @@
+.content {
+  flex: 1;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #eae9e9;
+  padding: 24px;
+  box-sizing: border-box;
+  box-shadow: 1px 4px 4px #f1f3f5;
+  min-width: 240px;
+
+  .contents-right p {
+    color: #78768e;
+    font-weight: bold;
+  }
+}
+
+/*アイコンカラー指定*/
+#supervisor_account .material-symbols-outlined {
+  color: #087de2;
+}
+
+#request_quote .material-symbols-outlined {
+  color: #059669;
+}
+
+#sync_alt .material-symbols-outlined {
+  color: #d97706;
+}
+
+#qr_code .material-symbols-outlined {
+  color: #7c3aed;
+}

@@ -1,0 +1,23 @@
+.logos {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  h4 {
+    line-height: 16px;
+  }
+
+  p {
+    color: #78768e;
+    font-size: 12px;
+  }
+
+  .material-symbols-outlined {
+    color: #087de2;
+  }
+}
+
+main {
+  margin-top: 80px;
+  padding: 64px;
+}
